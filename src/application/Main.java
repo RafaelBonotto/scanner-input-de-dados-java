@@ -18,6 +18,7 @@ public class Main {
         scan.nextLine();//comando para esvaziar o buffer do teclado
         System.out.print("Digite uma string (várias palavras): ");
         String entradaString = scan.nextLine();
+        
         System.out.println("Saída dos valores lidos: ");
         System.out.printf("\tValorInteiro: %d%n", entradaInt);
         System.out.printf("\tValorReal: %f%n", entradaDouble);
